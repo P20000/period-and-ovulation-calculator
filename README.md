@@ -6,7 +6,7 @@ A beautiful, user-friendly desktop application built with [CustomTkinter](https:
 
 ## 🖼️ Screenshot
 <p align="center">
-  <img src="screenshot.png" alt="App Screenshot" width="600"/>
+  <img src="Screenshot.png" alt="App Screenshot" width="600"/>
 </p>
 
 ---
