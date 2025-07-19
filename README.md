@@ -1,34 +1,41 @@
-# 🌸 Period & Ovulation Tracker App
+# Period & Ovulation Tracker App
 
-A beautiful, user-friendly desktop application built with [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter) that helps individuals track their menstrual cycles, manage multiple profiles, and get personalized mood predictions based on cycle phases.
+This is a lightweight, desktop-based application designed to help individuals track their menstrual cycle phases, manage personal or partner profiles, and receive mood insights based on biological rhythms. Built using Python and [CustomTkinter](https://github.com/TomSchimansky/CustomTkinter), the app features a clean, responsive interface and stores data securely on your local system.
+
+Whether you're developing a better understanding of your health or supporting a partner, this app offers a practical and elegant solution.
 
 ---
 
-## 🖼️ Screenshot
+## Screenshot
+
 <p align="center">
   <img src="Screenshot.png" alt="App Screenshot" width="600"/>
 </p>
 
 ---
 
-## ✨ Features
+## Key Features
 
-- 🌗 Predicts current mood based on cycle phase (e.g., Follicular, Ovulation, Luteal).
-- 👤 Multiple profile support with easy switching.
-- 📅 Input cycle details like last period date, duration, and cycle length.
-- 💾 All data is saved in a local JSON file (`girlfriend_data.json`) and persists between sessions.
-- 🎨 Clean, responsive UI with light/dark mode support.
+- Cycle phase detection (Menstruation, Follicular, Ovulation, Luteal)
+- Personalized mood and wellness predictions
+- Profile management with support for multiple users
+- Intuitive input system for tracking last period date, cycle length, and duration
+- Persistent local storage using a JSON file
+- Dark and light theme support
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
-### 🔧 Prerequisites
+### Prerequisites
 
 - Python 3.8 or higher
-- Virtual environment (recommended)
+- It is recommended to use a virtual environment
 
-### 📦 Install Dependencies
+### Installation
+
+1. Clone this repository or download the source code.
+2. Install the necessary dependencies:
 
 ```bash
 pip install customtkinter packaging darkdetect
