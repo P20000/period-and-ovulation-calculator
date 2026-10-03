@@ -1,7 +1,6 @@
 # Cycle and Mood Tracker (Cross-Platform)
 
 ![periods tracker native gtk and tkinter based](image.png)
-
 An intelligent, scientific cycle and mood tracker with relationship care guidance, built with a modern GTK4 / Libadwaita native interface and adaptive cross-platform fallback for Linux, Windows, and macOS.
 
 ---
