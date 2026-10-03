@@ -5,6 +5,10 @@ GTK4 and Libadwaita Application entry point and lifecycle manager.
 import os
 import sys
 from typing import Optional
+try:
+    import cairo
+except ImportError:
+    pass
 import gi
 gi.require_version("Gtk", "4.0")
 gi.require_version("Adw", "1")
