@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# User data & backups
+girlfriend_data.json
+*.json.bak
+*.bak
+
+# OS / IDE artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
