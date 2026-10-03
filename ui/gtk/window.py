@@ -144,7 +144,7 @@ class MainWindow(Adw.ApplicationWindow):
         self.profiles[self.current_profile.name.lower()] = self.current_profile
         self.storage.save_profiles(self.profiles)
         self._refresh_all_views()
-        self.show_toast("✨ Today's symptoms & mood saved successfully!")
+        self.show_toast("Today's symptoms and mood saved successfully!")
 
     def _on_toggle_theme(self, _):
         manager = Adw.StyleManager.get_default()
@@ -156,7 +156,7 @@ class MainWindow(Adw.ApplicationWindow):
             self.btn_theme.set_icon_name("weather-clear-symbolic")
 
     def show_toast(self, message: str):
-        toast = Adw.Toast.new(message)
+        toast = Adw.Toast.new(message.replace("&", "&amp;"))
         toast.set_timeout(3)
         self.toast_overlay.add_toast(toast)
 
